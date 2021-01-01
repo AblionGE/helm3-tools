@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euxo pipefail
+
 HELP="Usage: $0 \
   --db-url DB_URL \
   --db-user DB_USER \
